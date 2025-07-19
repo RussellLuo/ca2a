@@ -2,16 +2,21 @@
 
 `ca2a` is a command-line utility that helps you interact with [A2A][1] agents. It's basically `curl` for A2A agents.
 
+
 ## Installation
 
 ```bash
 pip install ca2a
 ```
 
+
 ## Usage
 
 ```bash
-$ ca2a -h
+ca2a -h
+```
+
+```
 usage: ca2a [-h] [-v] url method [items ...]
 
 A command-line utility for interacting with A2A agents.
@@ -25,6 +30,7 @@ options:
   -h, --help     show this help message and exit
   -v, --verbose  Enable verbose output showing the JSON-RPC request/response
 ```
+
 
 ## Quick Start
 
@@ -58,4 +64,17 @@ ca2a http://localhost:9999 message/stream message:='{
 }'
 ```
 
+
+## Related Projects
+
+[cMCP][2]: A command-line utility for interacting with MCP servers.
+
+
+## License
+
+[MIT][3]
+
+
 [1]: https://a2a-protocol.org/
+[2]: https://github.com/RussellLuo/cmcp
+[3]: http://opensource.org/licenses/MIT
