@@ -160,7 +160,7 @@ def main() -> None:
         "items",
         nargs="*",
         help="""\
-The parameter values (in the form of `key=string_value` or `key:=json_value`),
+The parameter values (in the form of `key=string_value` or `key:=json_value`), \
 or the header values (in the form of `key:value`)\
 """,
     )
@@ -168,7 +168,7 @@ or the header values (in the form of `key:value`)\
         "-v",
         "--verbose",
         action="store_true",
-        help="Enable verbose output showing JSON-RPC request/response",
+        help="Enable verbose output showing the JSON-RPC request/response",
     )
     args = parser.parse_args()
 

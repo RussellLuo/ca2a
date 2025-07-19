@@ -23,7 +23,7 @@ positional arguments:
 
 options:
   -h, --help     show this help message and exit
-  -v, --verbose  Enable verbose output showing JSON-RPC request/response
+  -v, --verbose  Enable verbose output showing the JSON-RPC request/response
 ```
 
 ## Quick Start
